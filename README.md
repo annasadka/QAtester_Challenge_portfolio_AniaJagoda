@@ -10,10 +10,10 @@ I decided to take part in the challenge because I really want to change jobs and
 
 ### Subtask 2 - Selectors
 
-Login
-//*[@id="login"]
-#login
-/html/body/div[1]/form/div/div[1]/div[1]/div/input
+#### Login <br>
+//*[@id="login"]<br>
+#login <br>
+/html/body/div[1]/form/div/div[1]/div[1]/div/input <br>
 
 Password
 #password
@@ -37,9 +37,7 @@ Language
 
 ### Subtask 3
 
-DEV TEAM CONTACT
-
-ADD PLAYER
+done
 
 ### Subtask 4 - Adding a new file and a new class
 
