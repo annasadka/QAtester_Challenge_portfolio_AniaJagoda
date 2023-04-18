@@ -11,30 +11,31 @@ I decided to take part in the challenge because I really want to change jobs and
 
 ### Subtask 2 - Selectors
 
-#### Login <br>
-//*[@id="login"]<br>
-#login <br>
-/html/body/div[1]/form/div/div[1]/div[1]/div/input <br>
+#### Login_field_xpath <br>
+* //*[@id="login"]<br>
+* #login <br>
+* //*[contains(@name, "login")] <br>
+* //*[text()="Login"]<br>
 
-#### Password
-#password<br>
-//*[@id="password"]<br>
-/html/body/div[1]/form/div/div[1]/div[2]/div/input<br>
+#### Password_field_xpath<br>
+* #password<br>
+* //*[@id="password"]<br>
+* //*[contains(@name, "password")]<br>
 
-#### Sign in button <br>
-//*[@id="__next"]/form/div/div[2]/button/span[1]<br>
-#__next > form > div > div.MuiCardActions-root > button > span.MuiButton-label<br>
-/html/body/div[1]/form/div/div[2]/button/span[1]<br>
+#### Sign_in_button_xpath <br>
+* //*[@type='submit']<br>
+* //*[text()='Sign in']<br>
+* //*[@id="__next"]/form/div/div[2]/button<br>
 
-#### Remind password <br>
-//*[@id="__next"]/form/div/div[1]/a <br>
-#__next > form > div > div.MuiCardContent-root > a <br>
-/html/body/div[1]/form/div/div[1]/a <br>
+#### Remind_password_hyperlink_xpath <br>
+* //*[@id="__next"]/form/div/div[1]/a <br>
+* //*[text()="Remind password"]<br>
+* //child::div/a <br>
 
-#### Language <br>
-//*[@id="__next"]/form/div/div[2]/div/div <br>
-#__next > form > div > div.MuiCardActions-root > div > div <br>
-/html/body/div[1]/form/div/div[2]/div/div <br>
+#### Language_selection_xpath <br>
+* //*[@id="__next"]/form/div/div[2]/div/div <br>
+* #__next > form > div > div.MuiCardActions-root > div > div <br>
+* /html/body/div[1]/form/div/div[2]/div/div <br>
 
 ### Subtask 3
 
