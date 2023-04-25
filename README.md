@@ -37,14 +37,6 @@ I decided to take part in the challenge because I really want to change jobs and
 * #__next > form > div > div.MuiCardActions-root > div > div <br>
 * /html/body/div[1]/form/div/div[2]/div/div <br>
 
-### Subtask 3
+## TASK 4
 
-done
-
-### Subtask 4 - Adding a new file and a new class
-
-done
-
-### Subtask 5: Adding a new file - add a match form
-
-done
+Test cases: https://docs.google.com/spreadsheets/d/1aG5ssNVZJEQqdPxkKUd1jBsRFuueZICb6irKtVrM0zI/edit#gid=0
